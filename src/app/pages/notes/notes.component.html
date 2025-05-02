@@ -11,7 +11,7 @@
               <input type="text" class="form-control" placeholder="search" [(ngModel)]="searchInput">
           </li>
       </ol>
-
+<!--  -->
 
       <div class="row justify-content-center p-3">
         @for (note of allNotes  | search:searchInput;track $index) {
